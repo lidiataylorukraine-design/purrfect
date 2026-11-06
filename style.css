@@ -1,6 +1,8 @@
 body {
+    margin: 0;
     background-color: #DDDDCF;
     font-family: Arial, sans-serif;
+    color: #492718;
 }
 
 .breeds {
@@ -58,4 +60,82 @@ body {
     .breeds {
         grid-template-columns: 1fr;
     }
+}
+/*--------------------------------------------------------------------------------------*/
+nav {
+background: #492718;
+padding: 22px;
+display: flex;
+justify-content: center;
+gap: 35px;
+flex-wrap: wrap;
+}
+
+nav a {
+color: #DBA367;
+text-decoration: none;
+font-weight: bold;
+transition: 0.2s;
+}
+
+nav a {
+color: white;
+}
+
+.hero {
+background: #582119;
+color: #DDDDCF;
+text-align: center;
+padding: 60px 20px;
+}
+
+.logo {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid #DBA367;
+}
+
+.hero h1 {
+font-size: 55px;
+margin: 15px;
+}
+
+.hero > p {
+max-width: 650px;
+margin: 20px auto 35px;
+line-height: 1.7;
+font-size: 18px;
+}
+
+.almighty {
+margin: 60px auto 0;
+}
+
+.almighty h2 {
+font-size: 25px;
+}
+
+.almighty img {
+width: 220px;
+height: 220px;
+object-fit: cover;
+border-radius: 15px;
+border: 4px solid #DBA367;
+}
+
+@media (max-width: 600px) {
+.hero h1 {
+font-size: 40px;
+}
+
+nav {
+    gap: 18px;
+}
+
+.hero {
+    padding: 40px 15px;
+}
+
 }
