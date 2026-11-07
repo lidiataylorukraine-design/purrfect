@@ -139,3 +139,43 @@ nav {
 }
 
 }
+
+/*-----------------------------------------------------------------------------*/
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+main section {
+    background: #DDDDCF;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+main h1 {
+    font-size: 36px;
+}
+
+main h2 {
+    color: #d17b38;
+}
+
+.contents {
+    background: #fff7ed;
+}
+
+.contents a {
+    color: #a65b25;
+    text-decoration: none;
+}
+
+.contents a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
