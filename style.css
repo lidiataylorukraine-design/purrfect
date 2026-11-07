@@ -154,11 +154,11 @@ main {
 }
 
 main section {
-    background: #49271850;
+    background: #912c008e;
     padding: 25px;
     margin: 25px 0;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.341);
 }
 
 main h1 {
@@ -166,7 +166,7 @@ main h1 {
 }
 
 main h2 {
-    color: #d17b38;
+    color: #6d2f00;
 }
 
 .contents {
