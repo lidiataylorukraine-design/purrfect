@@ -137,7 +137,12 @@ nav {
 .hero {
     padding: 40px 15px;
 }
-
+almighty img{
+    padding: auto;
+}
+.almighty h1{
+    font-size: auto;
+}
 }
 header {
     background: #582119;
